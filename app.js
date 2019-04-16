@@ -9,7 +9,7 @@ app.listen(port, () => {
   console.log(`server running on port ${port}`)
 });
 
-var test1 = 'bar';
+var test1 = 'bar'; //Dessa variabler bör egentligen stoppas in i en array, mer modulärt på så sätt.
 var test2 = 'foo';
 
 app.get('/arrayify', (req, res) => {
