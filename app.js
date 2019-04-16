@@ -10,7 +10,7 @@ app.listen(port, () => {
 });
 
 var test1 = 'bar'; //Dessa variabler bör egentligen stoppas in i en array, mer modulärt på så sätt.
-var test2 = 'foo'; //Testar bara för att lära mig push
+var test2 = 'foo'; //Testar bara för att lära mig pushaaaa
 
 app.get('/arrayify', (req, res) => {
   var info = req.query; //Lagrar infon i URL som en variabel
